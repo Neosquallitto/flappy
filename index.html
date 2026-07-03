@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<title>Flappy Oiseau</title>
+<title>Link Click Bump</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html, body {
@@ -309,7 +309,7 @@
     if (state === 'play') {
       drawText(score, W / 2, 80, 48);
     } else if (state === 'menu') {
-      drawText('Flappy Oiseau', W / 2, 180, 42, '#fff');
+      drawText('Link Click Bump', W / 2, 180, 40, '#fff');
       const pulse = 0.7 + Math.sin(now / 250) * 0.3;
       ctx.globalAlpha = pulse;
       drawText('Clique ou appuie sur ESPACE', W / 2, H / 2 + 90, 20);
